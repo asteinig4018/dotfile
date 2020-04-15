@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
-cp ~/.ssh ~/.ssh_old
-cp ~/.vim ~/.vim_old
-ln -s ~/dotfiles/.ssh ~/.ssh
-ln -s ~/dotfiles/.vim ~/.vim
-ln -s ~/dotfiles/.vimrc ~/.vimrc
-ln -s ~/dotfiles/.vimpkg ~./vimpkg
+cp -R ~/.ssh ~/.ssh_old
+cp -R ~/.vim ~/.vim_old
+cp -R ~/.vimpkg ~/.vimpkg_old
+cp ~/.vimrc ~/.vimrc_old
+rm -r ~/.ssh
+rm -r ~/.vim
+rm -r ~/.vimpkg
+rm ~/.vimrc
+ln -s ~/dotfile/.ssh ~/.ssh
+ln -s ~/dotfile/.vim ~/.vim
+ln -s ~/dotfile/.vimrc ~/.vimrc
+ln -s ~/dotfile/.vimpkg ~/.vimpkg
