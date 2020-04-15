@@ -117,3 +117,5 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/asteinig/.vimpkg/bin"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
