@@ -11,3 +11,4 @@ ln -s ~/dotfile/.ssh ~/.ssh
 ln -s ~/dotfile/.vim ~/.vim
 ln -s ~/dotfile/.vimrc ~/.vimrc
 ln -s ~/dotfile/.vimpkg ~/.vimpkg
+chmod 600 ~/.ssh/config

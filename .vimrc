@@ -12,4 +12,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 let g:indent_guides_enable_on_vim_startup = 1
 
-
+filetype plugin indent on
+syntax on
